@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobskiSoft.Service.DnsUpdater", "Source\RobskiSoft.Service.DnsUpdater\RobskiSoft.Service.DnsUpdater.csproj", "{45E72D01-67F5-419C-8B6B-619FF3768B40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83CE3589-D73D-48CF-B8B1-D5C8ED73070B}"
+	ProjectSection(SolutionItems) = preProject
+		DnsUpdater.vsmdi = DnsUpdater.vsmdi
+		Local.testsettings = Local.testsettings
+		TaskScheduler.xml = TaskScheduler.xml
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobskiSoft.Service.DnsUpdater.Tests", "Tests\RobskiSoft.Service.DnsUpdater.Tests\RobskiSoft.Service.DnsUpdater.Tests.csproj", "{8D989B1A-0AC7-4C68-9160-C5F715FBF571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45E72D01-67F5-419C-8B6B-619FF3768B40}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{45E72D01-67F5-419C-8B6B-619FF3768B40}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{45E72D01-67F5-419C-8B6B-619FF3768B40}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{45E72D01-67F5-419C-8B6B-619FF3768B40}.Debug|x86.ActiveCfg = Debug|x86
+		{45E72D01-67F5-419C-8B6B-619FF3768B40}.Debug|x86.Build.0 = Debug|x86
+		{45E72D01-67F5-419C-8B6B-619FF3768B40}.Release|Any CPU.ActiveCfg = Release|x86
+		{45E72D01-67F5-419C-8B6B-619FF3768B40}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{45E72D01-67F5-419C-8B6B-619FF3768B40}.Release|Mixed Platforms.Build.0 = Release|x86
+		{45E72D01-67F5-419C-8B6B-619FF3768B40}.Release|x86.ActiveCfg = Release|x86
+		{45E72D01-67F5-419C-8B6B-619FF3768B40}.Release|x86.Build.0 = Release|x86
+		{8D989B1A-0AC7-4C68-9160-C5F715FBF571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D989B1A-0AC7-4C68-9160-C5F715FBF571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D989B1A-0AC7-4C68-9160-C5F715FBF571}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8D989B1A-0AC7-4C68-9160-C5F715FBF571}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8D989B1A-0AC7-4C68-9160-C5F715FBF571}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8D989B1A-0AC7-4C68-9160-C5F715FBF571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D989B1A-0AC7-4C68-9160-C5F715FBF571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D989B1A-0AC7-4C68-9160-C5F715FBF571}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8D989B1A-0AC7-4C68-9160-C5F715FBF571}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8D989B1A-0AC7-4C68-9160-C5F715FBF571}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DnsUpdater.vsmdi
+	EndGlobalSection
+EndGlobal
